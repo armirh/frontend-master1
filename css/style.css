@@ -237,37 +237,26 @@ a:hover {
   background: #8BF0DA;
 }
 /* -------------------- Portfolio Section ----------------------- */
-.portfolio .portio-tags {
+.portfolio form{
   text-align: center;
   margin-bottom: 40px;
 }
-.portfolio .portio-tags li {
+.portfolio form input {
   background-color: #FFFFFF;
   padding: 5px;
   border: 1px solid #CCC;
   margin-right: 15px;
+  border-radius: 3px;
 }
-.portfolio .portio-tags li > a {
-  color: #777777;
-  text-decoration: none;
-  font-weight: 300;
-  font-size: 14px;
-}
-.portfolio .portio-tags li:hover {
+.portfolio form input:hover {
   background: #FFFFFF;
   border: 1px solid #d63031;
 }
-.portfolio .portio-tags li:hover a {
-  color: #d63031;
-}
-.portfolio .portio-tags li:active {
+.portfolio form input:active {
   background: #d63031;
   border: 1px solid #5d9e0f;
 }
-.portfolio .portio-tags li:active a {
-  color: #FFFFFF;
-}
-.portfolio ul li .portio-item {
+.portfolio form input {
   margin-bottom: 15px;
 }
 .portfolio ul li .portio-item .portio-picture {
@@ -667,13 +656,13 @@ a:hover {
 ul.social-media-list img {
   padding: 5px;
   border-radius: 10px;
-  background-color: #a11a1afd;
-  width: 36px;
-  height: 36px;
+  background-color: #fffffffd;
+  width: 35px;
+  height: 35px;
 }
 
 ul.social-media-list li {
-  display: table;  
+  display: inline-table;  
   padding: 10px;
 }
 
@@ -683,7 +672,7 @@ ul.social-media-list img:hover {
 
 ul.social-media-list {
   float: right;
-  margin: 10px;
+  margin: 5px;
 }
 
 #loadMore {

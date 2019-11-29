@@ -10,14 +10,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
-
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-			<![endif]-->
-		</head>
+</head>
 		<body>
 
 			<!-- ******************* Top Nav Bar Section ******************* -->
@@ -81,9 +74,7 @@
 					<!-- Arrow Right -->
 					<span u="arrowright" class="jssora21r"></span>
 				</div>
-				<!-- /slider-container -->
-
-				
+				<!-- /slider-container -->			
 			</div>
 
 			<!-- ******************* Portfolio Section ******************* -->
@@ -96,14 +87,13 @@
 					</div>
 
 					<!-- Filter links @navigation -->
-					<ul class="portio-tags list-unstyled list-inline"  id="filters">
-
-						<li><a href="#filter" data-filter="*">Të Gjitha</a></li>
-						<li><a href="#filter" data-filter=".websites" class="active">Dramë</a></li>
-						<li><a href="#filter" data-filter=".graphic">Komedi</a></li>
-						<li><a href="#filter" data-filter=".3d">Stand Up</a></li>
-						<li><a href="#filter" data-filter=".logo">Për fëmijë</a></li> <!-- .logo,.3d -->
-					</ul><!-- /Filter links @navigation -->
+					<form method="post" action="" class="categoryFilter">
+						<input type="submit" name="category1" value="Te gjitha">
+						<input type="submit" name="category2" value="Komedi">
+						<input type="submit" name="category3" value="Dramë">
+						<input type="submit" name="category4" value="Stand Up">
+						<input type="submit" name="category5" value="Për fëmijë">
+					</form>
 
 					<div class="row">
 						<!-- Portfolio items holder -->
@@ -117,8 +107,8 @@
 									</div>
 									<!-- Portfolio Description -->
 									<div class="portio-content">
-										<div class="title">Delighted Admin Template</div>
-										<div class="sub-title">Graphic Design</div>
+										<div class="title">YouTube-ri sekret</div>
+										<div class="sub-title">Për fëmijë</div>
 										<div class="description">
 											Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus. Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus. Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus.
 										</div>
@@ -135,8 +125,8 @@
 									</div>
 									<!-- Portfolio Description -->
 									<div class="portio-content">
-										<div class="title">Delighted Admin Template</div>
-										<div class="sub-title">Graphic Design</div>
+										<div class="title">Vrapo pas gruas tënde</div>
+										<div class="sub-title">Komedi, Dramë</div>
 										<div class="description">
 											Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus. Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus. Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus.
 										</div>
@@ -152,8 +142,8 @@
 									</div>
 									<!-- Portfolio Description -->
 									<div class="portio-content">
-										<div class="title">Delighted Admin Template</div>
-										<div class="sub-title">Graphic Design</div>
+										<div class="title">Shfaqja që shkon keq</div>
+										<div class="sub-title">Dramë</div>
 										<div class="description">
 											Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus. Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus. Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus.
 										</div>
@@ -443,8 +433,7 @@
 				</div>
 				<!-- /container -->
 			</div>
-
-
+		</div>
 			<!-- ******************* Contact Section ******************* -->
 
 			<div class="contact" id="menu5">
@@ -495,15 +484,6 @@
 							</div>
 						</div>
 						<br><br>
-						<div class="col-md-4">
-							<ul class="social-media-list">
-								<li><a href="#"><img src="https://unpkg.com/simple-icons@latest/icons/twitter.svg" alt="Twitter" title="Twitter"></a></li>
-								<li><a href="#"><img src="https://unpkg.com/simple-icons@latest/icons/github.svg" alt="GitHub" title="GitHub"></a></li>
-								<li><a href="https://www.facebook.com/teatriiqytetitgjilan/"><img src="https://unpkg.com/simple-icons@1.20.0/icons/facebook.svg" alt="Facebook" title="Facebook"></a></a></li>
-								<li><a href="#"><img src="https://unpkg.com/simple-icons@latest/icons/youtube.svg" alt="YouTube" title="YouTube"></a></li>
-								<li><a href="#"><img src="https://unpkg.com/simple-icons@latest/icons/stackoverflow.svg" alt="Stack Overflow" title="Stack Overflow"></a></li>
-							</ul>
-						</div>
 						<!-- /.col-md-4 -->
 					</div>
 					<!-- /.row -->
@@ -511,19 +491,27 @@
 				<!-- /.container -->
 			</div>
 			<!-- /.widgets-footer -->
+
 			<!-- ******************* Footer Section ******************* -->
 
 			<div class="footer">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-3">
+						<div class="col-md-6">
 							© Copyright by <a href="http://instagram.com/kameleon.dev" target="_blank"><span style="color:green">Kameleon</span></a> <img src="images/copy1.png" alt="">
+						</div>					
+						
+						<div class="col-md-6">
+							<ul class="social-media-list">
+								<li><a href="#"><img src="https://unpkg.com/simple-icons@latest/icons/twitter.svg" alt="Twitter" title="Twitter"></a></li>
+								<li><a href="https://www.facebook.com/teatriiqytetitgjilan/"><img src="https://unpkg.com/simple-icons@1.20.0/icons/facebook.svg" alt="Facebook" title="Facebook"></a></a></li>
+								<li><a href="#"><img src="https://unpkg.com/simple-icons@latest/icons/youtube.svg" alt="YouTube" title="YouTube"></a></li>
+							</ul>
 						</div>
-					</div>
+					</div>		
 				</div>
 			</div>
-
-		</body>
+</body>
 
 		<!-- jQuery -->
 		<script src="js/jquery-2.1.4.min.js"></script>
@@ -541,7 +529,7 @@
 			   // prevent default action
 			   e.preventDefault();
 			   
-			   scrollToElement( $(this).attr('href'), 2000 );
+			   scrollToElement( $(this).attr('href'), 2500 );
 			});
 
 			var scrollToElement = function(menu, ms){
